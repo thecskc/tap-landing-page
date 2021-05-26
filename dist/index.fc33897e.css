@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+
+body:not(.user-is-tabbing) button:focus,
+body:not(.user-is-tabbing) input:focus,
+body:not(.user-is-tabbing) select:focus,
+body:not(.user-is-tabbing) textarea:focus {
+    outline: none;
+}
+
+input {
+    border: none;
+    font-family: Lato;
+}
+
+.sec {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.flex-row-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.hero-section-left {
+    min-height: 75vh;
+    padding-top: 32px;
+    padding-left: 32px;
+}
+
+.hero-image {
+    padding-top: 32px;
+    width: 100vw;
+}
+
+.bg1 {
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+}
+
+.hero-title {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.75rem;
+    line-height: 4.6rem;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 20px 40px rgba(0, 0, 0, 0.25);
+
+    margin: 16px 0px;
+    opacity: 95%;
+}
+
+.hero-subtitle {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 140%;
+    /* or 24px */
+
+    /* Text/Icons */
+    color: #FFFFFF;
+
+    text-shadow: 0px 20px 40px rgba(0, 0, 0, 0.25);
+
+    margin: 16px 0px;
+    opacity: 85%;
+}
+
+.access-form-outer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 32px;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 1.30085px 2.60169px rgba(0, 72, 217, 0.1), 0px 15.6102px 39.0254px rgba(0, 72, 217, 0.05), 0px 7.80508px 15.6102px rgba(0, 72, 217, 0.05);
+    border-radius: 7.80508px;
+    margin-right: 32px;
+    width: 60%;
+
+}
+
+.input-box-outer {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 16px 0px;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    flex: none;
+    flex-grow: 0;
+    margin: 7.80508px 0px;
+}
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 7.80508px;
+
+    background: #F8FAFC;
+    border-radius: 2.60169px;
+    font-size: 1.1rem;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 1.30085px 0px;
+}
+
+.field-name {
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #6F7482;
+    flex: none;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 1.30085px 0px;
+
+
+}
+
+.button-outer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 100%;
+    flex: none;
+    flex-grow: 0;
+    margin: 16px 0px;
+}
+
+.button-enabled {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    background: #9A00B4;
+    border-radius: 3.90254px;
+
+    flex: none;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.button-label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    flex: none;
+    flex-grow: 0;
+    margin: 0px 0px;
+
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.1rem;
+    line-height: 1.2rem;
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+.button-enabled:hover {
+    box-shadow: 0px 1.30085px 2.60169px rgba(0, 72, 217, 0.1), 0px 15.6102px 39.0254px rgba(0, 72, 217, 0.05), 0px 7.80508px 15.6102px rgba(0, 72, 217, 0.05);
+    cursor: pointer;
+}
+
+.content-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    min-width: 90%;
+}
+
+.content-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-heading {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    color: #212121;
+}
+
+.content-subheading {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 2rem;
+    color: #212121;
+}
+
+.pricing-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 19px;
+    box-shadow: 0px 16.1151px 32.2302px rgba(0, 0, 0, 0.25);
+    border-radius: 19.3381px;
+    min-height: 40vh;
+    width: 50%;
+
+}
+
+.pricing-svg-desktop {
+    height: 80%;
+    width: 60%;
+
+}
+
+.pricing-svg-mobile {
+    height: 100%;
+    width: 100%;
+    visibility: hidden;
+}
+
+@media (max-width: 480px) {
+    .pricing-svg-mobile {
+        height: 100%;
+        width: 100%;
+        visibility: visible;
+    }
+
+    .pricing-svg-desktop {
+        height: 80%;
+        width: 60%;
+        visibility: hidden;
+    }
+}
+
+/*# sourceMappingURL=index.fc33897e.css.map */

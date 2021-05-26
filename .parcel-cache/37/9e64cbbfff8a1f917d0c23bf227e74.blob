@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link href="ee2e67db30216b7c418c3c1f4d3186af" rel="stylesheet">
+</head>
+<body>
+
+<div class="sec">
+
+    <img class="bg1" src="f918df1a3edefef8c66715e7c7c08381">
+
+    <div class="flex-row-container">
+
+        <div class="flex-column hero-section-left">
+
+            <div>
+                <div class="hero-title">
+                    Work Like You Are In The Same Room
+                </div>
+                <div class="hero-subtitle">
+                    Drop-in audio-only chats and instant collaboration with your remote team.
+                </div>
+
+                <form class="access-form-outer" style="0c7751010eb75833a0f55c02adbf354f">
+
+                    <div class="input-box-outer">
+
+                        <div class="input-box">
+                            <div class="field-name">
+                                Name
+                            </div>
+                            <input class="input-field" type="text">
+
+                        </div>
+
+                        <div class="input-box">
+                            <div class="field-name">
+                                Email
+                            </div>
+                            <input class="input-field" type="email">
+
+                        </div>
+
+                        <div class="input-box">
+                            <div class="field-name">
+                                Role
+                            </div>
+                            <input class="input-field" type="text">
+
+                        </div>
+
+                        <div class="input-box">
+                            <div class="field-name">
+                                Company
+                            </div>
+                            <input class="input-field" type="company">
+
+                        </div>
+
+                    </div>
+
+                    <div class="button-outer">
+                        <div class="button-enabled">
+                            <div class="button-label">
+                                Get Access!
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                </form>
+
+
+            </div>
+
+
+        </div>
+
+        <div class="flex-column hero-image">
+
+            <img src="cf05dc3f0c2561e978d7509ab60f7c6f">
+
+        </div>
+
+
+    </div>
+
+
+</div>
+
+<div class="sec" style="695589dbfbcb584c8b38187e4ddc6421">
+
+    <div class="content-row" style="d66a43d8a7766fdcb41ce1094eee486d">
+
+        <div class="content-column" style="9f7d9678c7559d667631b85c542b3697">
+            <img src="5e25caf13c81ceae05f307433f6d610f">
+        </div>
+
+        <div class="content-column" style="d1b18028918dd61b3c1412ec9914017c">
+            <div class="content-heading">
+                <span style="e4064c96433a523667dc4034c266bd63">Audio-only</span>, spontaneous chats with your teammates
+
+            </div>
+            <br>
+            <div class="content-subheading">
+                See a teammate that is online? Instantly begin talking to them in one-click. <br><br>
+
+                Audio builds a low-pressure environment to collaborate and <b>video calls are not even an option on
+                Ping</b>.
+            </div>
+        </div>
+
+    </div>
+
+    <div class="content-row">
+
+        <div class="content-column" style="559f7c2f14810f5ad89f203b4f235eec">
+            <div class="content-heading">
+
+                Instant, <span style="cd59b55f30c3bec1c85b9ad0805f5e5e">deep collaboration</span>
+
+            </div>
+
+            <div class="content-subheading" style="8348fa6fe03c3936cda9739e77de3fb1">
+                Sketch out your ideas and share your screen and enable remote control in one-click.
+            </div>
+        </div>
+
+        <div class="content-column" style="b8d7f2205fc2f16c8709925f7517c5cf">
+            <img src="8ab9475ed933c0d0494e0e93e16ebb40">
+        </div>
+
+    </div>
+
+
+</div>
+
+<div class="sec" style="d7311147ebd686f388abed9cb8361e41">
+
+    <div class="content-row" style="df95379c9ec10dd1d9978f7b8cdf5c1d">
+
+        <div class="content-column" style="f51a52791dcf26e92bf39d9a7c69f559">
+
+            <img src="ac59e9898c74b65c5b7b6118ceb71c9e">
+
+        </div>
+
+        <div class="content-column" style="620d69c246b28c5104de07fcb965bf6c">
+
+            <div class="content-heading">
+
+                <span style="5c21d111f5fa816e1a87c1606492ff6e">Transcribed, async audio messages, </span> when sync isn't possible.
+
+            </div>
+
+            <div class="content-subheading">
+                Can’t collaborate with teammates in real-time? Simply record yourself and send a transcribed audio
+                message to your teammates.
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<div class="sec" style="3177ddb66da29140b891d464701c0b16">
+
+    <div style="acbbd4841d2638f67e0df07424bf5a34">
+        <div class="content-heading">
+            Finally, <span style="016ca1472b24f142138c2f8e4f62a6d7">a low pressure environment to collaborate.</span>
+        </div>
+        <br>
+        <div class="content-subheading">
+            Traditional tools like Zoom are great for formal meetings but are almost "too formal" for your closest
+            teammates. Ping brings back the "tap someone on the shoulder" effect
+            and the spontaneity without getting you out of your flow. Ping doesn't even have a video option - so don't
+            worry about what you look like or what your background is.
+            <br><b>Simply connect, and collaborate.<br>
+            Effortlessly.</b>
+        </div>
+    </div>
+
+
+</div>
+
+<div class="sec" style="dc1f501611441c23905b4b9df825b56c">
+
+
+    <div class="content-heading">
+        Find The Right Plan For You
+    </div>
+
+    <img src="9c6023d4a33ae0d8b0890ceacf596687" class="pricing-svg-mobile">
+
+    <img src="83e12d0b75f72688972b23ff5acd13fe" class="pricing-svg-desktop">
+
+<!--    <img src="static/pricingbg.svg" style="z-index:-1;position:absolute;"/>-->
+
+<!--    <div class="pricing-container" style="width:80%;border:2px solid blue;">-->
+
+<!--        <div class="content-heading">-->
+<!--            Find The Right Plan For You-->
+<!--        </div>-->
+
+<!--        <div style="display:flex;flex-direction: row;justify-content: space-evenly; align-items: center;width:100%;">-->
+<!--            <div class="pricing-box" style="background:#ffffff">-->
+<!--                <div style="font-family: Lato;font-style: normal; font-weight: bold; font-size: 1.2rem; line-height: 1.3rem; color: #181059;">-->
+<!--                    Hello-->
+<!--                </div>-->
+<!--            </div>-->
+
+<!--            <div class="pricing-box" style="background:#ffffff">-->
+<!--                <div style="font-family: Lato;font-style: normal; font-weight: bold; font-size: 1.2rem; line-height: 1.3rem; color: #181059;">-->
+<!--                    Hello-->
+<!--                </div>-->
+<!--            </div>-->
+
+
+<!--        </div>-->
+
+
+    </div>
+
+
+</body>
+</html><script src="202f65accccb6071212b96a1d3c27081"></script>
